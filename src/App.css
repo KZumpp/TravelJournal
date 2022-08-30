@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c991c7;
+  
+}
+
+nav {
+  font-family: 'Silkscreen', cursive;
+  color: white;
+  height: 70px;
+  display: flex;
+  padding: 50px, 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  background-color: #6e3c81;
+  
+}
+
+.nav-img {
+  display: flex;
+  color: pink;
+  padding-top: 23px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-top: -10px;
+  margin-left: 25px;
+  color: #EDDAEC;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  background: black;
+  cursor: pointer;
+    
+}
+
+button:hover {
+  color: black;
+  background-color: unset;
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+   
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  justify-content: flex-end;
+}
+
+.line-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.map-logo img {
+  height: 35px;
+  width: 30px;
+  
+ 
+}
+
+.card-title {
+  display: flex;
+  margin-top: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+
+.card-img {
+  border-radius: 9px;
+  margin-bottom: 9px;
+  height: 50vw;
+  width: 30vw;
+  object-fit: cover;
+  margin: 15px;
+ 
+}
+
+.dates {
+  margin-top: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: lighter;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.card-description {
+  font-family: 'Varela Round', sans-serif;
+  color: #14292c;
+  font-weight: lighter;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  
+}
+
+
+
+.link-line  {
+  text-transform: uppercase;
+}
+
